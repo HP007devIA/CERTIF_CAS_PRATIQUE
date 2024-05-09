@@ -1,0 +1,90 @@
+/* style.css */
+
+/* Styles spécifiques à l'application Streamlit */
+body {
+    background-color: #75709d; /* Couleur de fond de l'application */
+    font-family: Arial, sans-serif; /* Police de caractères par défaut */
+}
+
+h1 {
+    color: #082280; /* Couleur du texte pour les titres de premier niveau */
+}
+
+h2 {
+    color: #555; /* Couleur du texte pour les titres de deuxième niveau */
+}
+
+/* Styles pour les markdown (texte en gras) */
+p, h1, h2, h3, h4, h5, h6 {
+    font-weight: bold; /* Mise en gras pour tous les markdown */
+}
+
+/* Styles pour les colonnes */
+.stColumn {
+    padding: 10px; /* Espacement intérieur des colonnes */
+    background-color: #78f708; /* Couleur de fond des colonnes */
+    border-radius: 5px; /* Rayon de bordure des colonnes */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre des colonnes */
+}
+
+/* Styles pour les boutons */
+.stButton>button {
+    background-color: #007bff; /* Couleur de fond des boutons */
+    color: #fff; /* Couleur du texte des boutons */
+    border-radius: 5px; /* Rayon de bordure des boutons */
+    padding: 8px 20px; /* Espacement intérieur des boutons */
+    border: none; /* Suppression de la bordure */
+    cursor: pointer; /* Curseur au survol */
+    transition: background-color 0.3s ease; /* Animation de transition */
+}
+
+.stButton>button:hover {
+    background-color: #0056b3; /* Couleur de fond au survol */
+}
+
+/* Styles pour les colonnes gauche et droite */
+.leftColumn {
+    font-size: 16px;
+    text-align: left;
+    padding: 5px;
+    background-color: rgb(81, 81, 81);
+    color: #ffffff;
+}
+
+.rightColumn {
+    font-size: 20px;
+    text-align: left;
+    padding: 5px;
+    color: #ffffff;
+}
+
+/* Style pour la table */
+.tableStyle {
+    margin: 0 auto;
+    background-color: rgb(148, 148, 148);
+}
+
+/* Styles pour la jauge */
+.redJauge {
+    height: 80px;
+    width: 80px;
+    background-color: red;
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.orangeJauge {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(255, 179, 0);
+    border-radius: 20px;
+    margin: 0 auto;
+}
+
+.greenJauge {
+    height: 80px;
+    width: 80px;
+    background-color: rgb(0, 255, 0);
+    border-radius: 20px;
+    margin: 0 auto;
+}
