@@ -12,7 +12,7 @@ Vous êtes un développeur IA, votre entreprise vous a confié la mission de dé
 3. Notebook d'Entraînement : Le notebook fournit les étapes détaillées de la préparation des données et de l'entraînement du modèle pour la reconnaissance d'oeil gauche.
 4. Application d'Authentification d'OEil gauche  
 
-# Cahier de charge
+# Cahier des charges
 1. Améliorer le programme d’IA existant pour permettre la bonne classification d’un employé à partir d’un scan d’un de ses yeux (oeil droit ou oeil gauche, besoin d’un classifieur pour chaque).
 2. Développer une application conviviale qui réalise les tâches suivantes :
 - Permettre le téléchargement d'une image de l'oeil d'un employé.
@@ -20,7 +20,7 @@ Vous êtes un développeur IA, votre entreprise vous a confié la mission de dé
 - Prédire si l'oeil est gauche ou droit.
 - Authentifier l'employé en utilisant le classifieur approprié en fonction de la prédiction précédente et en affichant les informations de la personne authentifiée.
 
-# Livrable attendu
+# Livrables attendus
 - Un rapport écrit des réalisations produites, de 5 à 10 pages.
 - Une synthèse orale du travail à prévoir, de 5 minutes (support ppt, vidéo démo).
 
